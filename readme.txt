@@ -1,10 +1,12 @@
-��Ҫ���Ե���Ƶ����·������VideoPath.txt�У����������ɨ��txt�ĵ���
-���ڵ�ǰĿ¼���½�����Ƶ��Ϊ�����ļ��У���ÿ֡ͼ�񶼱����ڸ��ļ����¡�
+该工具可以以计算方式 算出视频每个帧数 并截图保存
 
-��ͬʱ���������Ƶ��
+将要测试的视频完整路径放在VideoPath.txt中，程序会逐行扫描txt文档，
+并在当前目录下新建以视频名为名的文件夹，把每帧图像都保存在该文件夹下。
 
-ע�⣺
-	����·����ʽ���£�C:/Users/xxx/Desktop/xxx.mp4
-	���������������ͼ�񣬿ɽ�·����ʽ�޸�Ϊ��C:\\Users\\xxx\\Desktop\\xxxxx.mp4
+可同时处理多个视频。
 
-����ʹ��ʱ��Ҫ�ҵ��ʺ���ʹ�õ��Ե�·����֮��Ͳ���Ҫ�ˡ�
+注意：
+	完整路径格式如下：C:/Users/xxx/Desktop/xxx.mp4
+	如果不能正常保存图像，可将路径格式修改为：C:\\Users\\xxx\\Desktop\\xxxxx.mp4
+
+初次使用时需要找到适合所使用电脑的路径，之后就不需要了。
